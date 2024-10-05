@@ -1,0 +1,102 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Container form */
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9; /* Optional: Menambahkan warna latar */
+  border-radius: 8px; /* Membuat sudut membulat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambah shadow untuk estetika */
+}
+/* Label Styling */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #333; /* Ubah warna untuk lebih kontras */
+  text-align: left; /* Pastikan label rata kiri */
+}
+
+/* Input Field Styling */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  color: #333; /* Warna teks yang lebih gelap */
+  transition: border-color 0.3s ease; /* Efek animasi saat fokus */
+}
+
+.input-field:focus {
+  border-color: #ff4e00; /* Border berubah saat input difokuskan */
+  outline: none;
+}
+/* Button Styling */
+.button {
+  background-color: #ff4e00;
+  color: white;
+  padding: 12px 24px; /* Sedikit tambah padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  transition: background-color 0.3s ease; /* Efek animasi saat hover */
+}
+
+.button:hover {
+  background-color: #e04500; /* Warna sedikit lebih gelap saat hover */
+}
+/* Text Styling for Links */
+.text-wrapper-4 {
+  color: #ff4e00;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+.text-wrapper-4:hover {
+  text-decoration: underline;
+}
+/* OR Divider Styling */
+.component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.component .line {
+  width: 100px;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 10px;
+}
+
+.component span {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+/* Responsive Styling */
+@media (max-width: 480px) {
+  .form-container {
+    padding: 10px;
+  }
+
+  .button {
+    width: 100%;
+    padding: 12px;
+  }
+}

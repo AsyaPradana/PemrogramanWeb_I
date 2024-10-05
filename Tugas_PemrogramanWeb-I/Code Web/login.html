@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="stylelogin.css" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="div">
+        <div class="overlap">
+          <img class="sinar-jaya-legacy" src="img/sinar-jaya-legacy-sr2-s-series-by-riobeneran-df6fw3w-350t-2.png" />
+          <div class="text-wrapper">Bussku</div>
+          <div class="text-wrapper-2">Access</div>
+          <img class="rectangle" src="img/rectangle-66.svg" />
+          <div class="right-side">
+            <img class="battery" src="img/battery.png" />
+            <img class="wifi" src="img/wifi.svg" />
+            <img class="mobile-signal" src="img/mobile-signal.svg" />
+          </div>
+          <img class="left-side" src="img/left-side.png" />
+        </div>
+        <div class="text-wrapper-3">Don’t have an account?</div>
+        
+        <!-- Tautan ke halaman pembuatan akun baru -->
+        <a href="create_account.html" class="text-wrapper-4">Create new account</a>
+
+        <!-- Tautan ke halaman lupa password -->
+        <a href="forgot_password.html" class="text-wrapper-5">Forget Password?</a>
+
+        <!-- Tombol login, bisa diarahkan ke halaman home setelah login -->
+        <button class="button-active-danger" onclick="goToHome()">
+          <div class="text-wrapper-6">Login</div>
+        </button>
+
+        <!-- Input untuk Password -->
+        <div class="OB-forms-password">
+          <div class="text-wrapper-7">Password</div>
+          <div class="frame"><input type="password" class="name" placeholder="Password" /></div>
+        </div>
+
+        <!-- Input untuk Username -->
+        <div class="OB-forms-username">
+          <div class="overlap-group">
+            <img class="img" src="img/frame.png" />
+            <div class="text-wrapper-7">Username</div>
+            <label for="username" class="text-wrapper-7">Username</label>
+            <input type="text" class="name" placeholder="Username" />
+          </div>
+        </div>
+        <div class="text-wrapper-8">Welcome</div>
+        <img class="OR-option" src="img/or-option.png" />
+        <div class="component">
+          <div class="text-wrapper-9">OR</div>
+          <img class="line" src="img/line-2.svg" />
+          <img class="line-2" src="img/line-2.svg" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Fungsi untuk berpindah ke halaman home setelah login
+      function goToHome() {
+        window.location.href = "home.html";
+      }
+    </script>
+  </body>
+</html>

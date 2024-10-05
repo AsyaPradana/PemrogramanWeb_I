@@ -1,0 +1,93 @@
+.welcome-home {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.welcome-home .div {
+  background-color: #ffffff;
+  width: 414px;
+  height: 896px;
+  position: relative;
+}
+
+.welcome-home .status-bar {
+  position: absolute;
+  width: 414px;
+  height: 44px;
+  top: 0;
+  left: 0;
+}
+
+.welcome-home .right-side {
+  position: absolute;
+  width: 67px;
+  height: 11px;
+  top: 17px;
+  left: 333px;
+}
+
+.welcome-home .battery {
+  position: absolute;
+  width: 24px;
+  height: 11px;
+  top: 0;
+  left: 42px;
+}
+
+.welcome-home .wifi {
+  position: absolute;
+  width: 15px;
+  height: 11px;
+  top: 0;
+  left: 22px;
+}
+
+.welcome-home .mobile-signal {
+  position: absolute;
+  width: 17px;
+  height: 11px;
+  top: 0;
+  left: 0;
+}
+
+.welcome-home .left-side {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  top: 12px;
+  left: 20px;
+}
+
+.welcome-home .overlap-group {
+  position: absolute;
+  width: 305px;
+  height: 61px;
+  top: 713px;
+  left: 61px;
+  background-color: #f5a522;
+  border-radius: 20px;
+}
+
+.welcome-home .text-wrapper {
+  position: absolute;
+  top: 15px;
+  left: 77px;
+  font-family: "Ubuntu", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.welcome-home .img {
+  position: absolute;
+  width: 414px;
+  height: 427px;
+  top: 203px;
+  left: 0;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="stylesukses.css" />
+    <title>Registration Successful</title>
+  </head>
+  <body>
+    <div class="create-account">
+      <div class="overlap-group-wrapper">
+        <div class="overlap-group">
+          <img class="iphone-XS-home" src="img/iphone-xs-home-indicator-1.svg" alt="home indicator"/>
+          <img class="nannenti" src="img/nannenti-1.png" alt="nannenti"/>
+          <div class="status-bar">
+            <div class="right-side">
+              <img class="battery" src="img/battery.png" alt="battery"/>
+              <img class="wifi" src="img/wifi.svg" alt="wifi"/>
+              <img class="mobile-signal" src="img/mobile-signal.svg" alt="mobile signal"/>
+            </div>
+            <img class="left-side" src="img/left-side.png" alt="time"/>
+          </div>
+          <img class="image" src="img/image-32.png" alt="image"/>
+          <p class="didn-t-get-email">
+            <span class="text-wrapper">didn’t get email?&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span class="span">resend</span>
+          </p>
+          <p class="div">We sent you an email</p>
+          <div class="text-wrapper-2">Please verify your email address</div>
+          <p>You will be redirected to login in <span id="countdown">5</span> seconds...</p>
+
+          <img class="img" src="img/iphone-xs-home-indicator-1.svg" alt="home indicator"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script untuk pengalihan otomatis -->
+    <script>
+      // Waktu untuk pengalihan (5 detik)
+      let countdown = 5;
+      const countdownElement = document.getElementById('countdown');
+      const interval = setInterval(() => {
+        countdown--;
+        countdownElement.textContent = countdown;
+        if (countdown <= 0) {
+          clearInterval(interval);
+          window.location.href = 'login.html'; // Pengalihan ke halaman login
+        }
+      }, 1000); // Interval tiap detik
+    </script>
+  </body>
+</html>

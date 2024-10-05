@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="globals.css">
+    <link rel="stylesheet" href="styleguide.css">
+    <link rel="stylesheet" href="styleaccount.css">
+    <title>Create Account</title>
+</head>
+<body>
+    <div class="create-account">
+        <div class="div">
+            <!-- Header Section -->
+            <div class="overlap-group">
+                <img class="rectangle" src="img/rectangle-65.svg" alt="background-header">
+                <div class="text-wrapper">Bussku</div>
+                <div class="text-wrapper-2">Access</div>
+                <div class="status-bar">
+                    <div class="right-side">
+                        <img class="battery" src="img/battery.png" alt="battery-icon">
+                        <img class="wifi" src="img/wifi.svg" alt="wifi-icon">
+                        <img class="mobile-signal" src="img/mobile-signal.svg" alt="signal-icon">
+                    </div>
+                    <img class="left-side" src="img/left-side.png" alt="time-indicator">
+                </div>
+            </div>
+
+            <!-- Form Section -->
+            <div class="form-container">
+                <h2>Create an account</h2>
+
+                <form id="signup-form" action="/submit-signup" method="POST">
+                    <!-- Input Username -->
+                    <label for="username" class="text-wrapper-11">Username</label>
+                    <input type="text" id="username" class="input-field" placeholder="Enter your username" required>
+
+                    <!-- Input Email -->
+                    <label for="email" class="text-wrapper-9">Email</label>
+                    <input type="email" id="email" class="input-field" placeholder="Enter your email" required>
+
+                    <!-- Input Password -->
+                    <label for="password" class="text-wrapper-8">Password</label>
+                    <input type="password" id="password" class="input-field" placeholder="Enter your password" required>
+                    <p class="p">Password should be 8 characters long</p>
+
+                    <!-- Input Confirm Password -->
+                    <label for="confirm-password" class="text-wrapper-10">Confirm Password</label>
+                    <input type="password" id="confirm-password" class="input-field" placeholder="Confirm your password" required>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="button">Sign Up</button>
+                </form>
+
+                <!-- OR Option for Alternative Login -->
+                <div class="component">
+                    <div class="text-wrapper-6">OR</div>
+                    <img class="line" src="img/line-2-1.svg" alt="line-divider">
+                </div>
+
+                <div class="text-wrapper-3">Already have an account? <a href="/login" class="text-wrapper-4">Login</a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Redirect to success page after form submission -->
+    <script>
+        document.getElementById('signup-form').addEventListener('submit', function (e) {
+            e.preventDefault(); // Prevent actual form submission for demonstration
+
+            // Simulate a successful form submission and redirect
+            setTimeout(function () {
+                window.location.href = 'sukses.html'; // Redirect to success page
+            }, 1000); // Delay for 1 second to simulate form processing
+        });
+    </script>
+</body>
+</html>

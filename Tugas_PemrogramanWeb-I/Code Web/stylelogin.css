@@ -1,0 +1,338 @@
+.login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login .div {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 414px;
+  height: 896px;
+  position: relative;
+}
+
+.login .overlap {
+  position: absolute;
+  width: 415px;
+  height: 296px;
+  top: 0;
+  left: -1px;
+}
+
+.login .sinar-jaya-legacy {
+  position: absolute;
+  width: 414px;
+  height: 217px;
+  top: 79px;
+  left: 1px;
+}
+
+.login .text-wrapper {
+  position: absolute;
+  width: 66px;
+  top: 34px;
+  left: 172px;
+  font-family: "Ubuntu", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.login .text-wrapper-2 {
+  width: 66px;
+  top: 52px;
+  left: 178px;
+  font-family: "Koulen", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: normal;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.login .rectangle {
+  position: absolute;
+  width: 415px;
+  height: 88px;
+  top: 0;
+  left: 0;
+}
+
+.login .right-side {
+  position: absolute;
+  width: 67px;
+  height: 11px;
+  top: 19px;
+  left: 324px;
+}
+
+.login .battery {
+  position: absolute;
+  width: 24px;
+  height: 11px;
+  top: 0;
+  left: 42px;
+}
+
+.login .wifi {
+  position: absolute;
+  width: 15px;
+  height: 11px;
+  top: 0;
+  left: 22px;
+}
+
+.login .mobile-signal {
+  position: absolute;
+  width: 17px;
+  height: 11px;
+  top: 0;
+  left: 0;
+}
+
+.login .left-side {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+  top: 14px;
+  left: 11px;
+}
+
+.login .text-wrapper-3 {
+  position: absolute;
+  width: 170px;
+  height: 16px;
+  top: 764px;
+  left: 122px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.login .text-wrapper-4 {
+  position: absolute;
+  width: 123px;
+  height: 10px;
+  top: 787px;
+  left: 145px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ff4e00;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.login .text-wrapper-5 {
+  position: absolute;
+  width: 94px;
+  height: 13px;
+  top: 624px;
+  left: 277px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 300;
+  color: #ff4e00;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login .button-active-danger {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 119px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 16px;
+  position: absolute;
+  top: 596px;
+  left: 48px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #ff4e00;
+  box-shadow: 0px 2px 10px #ff4e0040;
+}
+
+.login .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.login .OB-forms-password {
+  top: 498px;
+  position: absolute;
+  width: 322px;
+  height: 72px;
+  left: 49px;
+}
+
+.login .text-wrapper-7 {
+  position: absolute;
+  width: 322px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.login .frame {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  align-items: flex-start;
+  padding: 10px 15px;
+  top: 24px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ff4e00;
+  box-shadow: 0px 2px 10px -3px #ff4e0057;
+  width: 200px;
+  position: absolute;
+  left: 0;
+}
+
+.OB-forms-password .frame {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  align-items: flex-start;
+  padding: 10px 15px;
+  top: 24px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ff4e00;
+  box-shadow: 0px 2px 10px -3px #ff4e0057;
+  width: 322px;
+  position: absolute;
+  left: 0;
+}
+
+.login .name {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #d2d2d2;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.login .OB-forms-username {
+  top: 426px;
+  position: absolute;
+  width: 322px;
+  height: 72px;
+  left: 49px;
+}
+
+.login .overlap-group {
+  position: relative;
+  height: 72px;
+}
+
+.login .img {
+  height: 53px;
+  top: 19px;
+  width: 322px;
+  position: absolute;
+  left: 0;
+}
+
+.login .text-wrapper-8 {
+  width: 200px;
+  height: 59px;
+  top: 343px;
+  left: 111px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.login .OR-option {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 709px;
+  left: 158px;
+}
+
+.login .component {
+  position: absolute;
+  width: 248px;
+  height: 18px;
+  top: 673px;
+  left: 86px;
+}
+
+.login .text-wrapper-9 {
+  position: absolute;
+  top: -1px;
+  left: 114px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ff4e00;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.login .line {
+  left: 0;
+  position: absolute;
+  width: 102px;
+  height: 1px;
+  top: 8px;
+  object-fit: cover;
+}
+
+.login .line-2 {
+  left: 146px;
+  position: absolute;
+  width: 102px;
+  height: 1px;
+  top: 8px;
+  object-fit: cover;
+}
